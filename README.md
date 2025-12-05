@@ -22,7 +22,7 @@ Una vez se instala el toolkit, En Visual Studio debe crear el proyecto de la sig
 
 En la carpeta de proyecto (junto a kernel.cu) deben estar: preprocesamiento.h, Resultado.py, SP500.csv y SP50020152020.csv
 
-Y copiar el codigo en el archivo kernel.cu y correrlo
+Luego, debe copiar el codigo en el archivo kernel.cu y correrlo (Asegurarse antes de incluir las librerias CUBLAS y CudART en el Linker)
 
 La ejecucion del codigo se encuentra en este video:
 https://drive.google.com/file/d/1EgTov8iKgNGGeSaCm0hewhHK5GQE2j4S/view?usp=drive_link
