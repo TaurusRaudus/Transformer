@@ -5,15 +5,17 @@ Por Manuel Charaja
 
 # Instrucciones
 
-Tener Visual Studio 2022 instalado
-Tener el toolkit de CUDA instalado
-Tener Python instalado con las librerias pandas y plotlibe (Opcional para la grafica)
+- Tener Visual Studio 2022 instalado
+- Tener el toolkit de CUDA instalado
+- Tener Python instalado con las librerias pandas y plotlibe (Opcional para la grafica)
 
 
 Para instalar esta version de Transformer se necesita el Toolkit de CUDA cuda_12.6.3_windows_network.exe disponible aqui (Ademas asegurarse que la version sea compatible con la Tarjeta grafica):
 https://developer.nvidia.com/cuda-12-6-3-download-archive?target_os=Windows&target_arch=x86_64&target_version=11&target_type=exe_network
 
 Despues tambien debe de descargar los datasets (SP500.csv y SP50020152020.csv respectivamente) incluidos en la carpeta
+Estos datasets fueron obtenidos del Federal Reserve Bank of St. Louis
+https://fred.stlouisfed.org/series/SP500
 
 Una vez se instala el toolkit, En Visual Studio debe crear el proyecto de la siguiente forma:
 <img width="1523" height="435" alt="image" src="https://github.com/user-attachments/assets/c0cbbdb1-35b8-4ecd-934a-c766f53d4e3c" />
