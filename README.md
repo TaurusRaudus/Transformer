@@ -20,7 +20,8 @@ https://fred.stlouisfed.org/series/SP500
 Una vez se instala el toolkit, En Visual Studio debe crear el proyecto de la siguiente forma:
 <img width="1523" height="435" alt="image" src="https://github.com/user-attachments/assets/c0cbbdb1-35b8-4ecd-934a-c766f53d4e3c" />
 
-En la carpeta de proyecto (junto a kernel.cu) deben estar: preprocesamiento.h 
+En la carpeta de proyecto (junto a kernel.cu) deben estar: preprocesamiento.h, Resultado.py, SP500.csv y SP50020152020.csv
+
 Y copiar el codigo en el archivo kernel.cu y correrlo
 
 La ejecucion del codigo se encuentra en este video:
